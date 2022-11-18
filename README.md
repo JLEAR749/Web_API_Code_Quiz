@@ -19,7 +19,8 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 
-##Screenshot
+## Screenshot
+![screenshot of github(C:\Users\16122\bootcamp\Web_API_Code_Quiz\screenshotcodequiz.png)]
 
 
 ## Table of Contents (Optional)
