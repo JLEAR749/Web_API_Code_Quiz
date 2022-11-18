@@ -20,7 +20,7 @@ WHEN the game is over
 THEN I can save my initials and my score
 
 ## Screenshot
-![screenshot of github(C:\Users\16122\bootcamp\Web_API_Code_Quiz\screenshotcodequiz.png)]
+![screenshot of code quiz] ("screenshotfcodequiz.png")
 
 
 ## Table of Contents (Optional)
