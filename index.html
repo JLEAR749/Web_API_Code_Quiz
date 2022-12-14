@@ -11,19 +11,18 @@
 
 <body>
     <header>
-        <div class="start-card">Welcome to the JavaScript Quiz! 
-            You will have 120 seconds. If you get a wrong answer it will deduct the remaining time.</div>
-        <button class="start-button">Click on Start Button</button>
+
     </header>
 
     <main>
-        <section>
-            <div class="quiz-card">
-                <div class="win-loss- container">
-                </div>
+        <section class="start-card">
+            <p> Welcome to the JavaScript Quiz! You will have 120 seconds. If you get a wrong answer
+                it will deduct the remaining time.</p>
+            <button class="start-button">Click on Start Button</button>
+
         </section>
-        <section>
-            <div class="card results">
+        <section class="view-results">
+            <div class="card-results">
                 <div class="win-loss-container">
                     <h2>Wins: <span class="win">0 </span> </h2>
                     <h2>Losses: <span class="lose">0</span></h2>
@@ -33,14 +32,14 @@
             <div class="card timer">
                 <div class="timer-text">
                     <div class="large-font timer-count">120</div>
-                    <h3>seconds remaining</h3>
+                    <span>seconds remaining</span>
                 </div>
             </div>
         </section>
         <section id="questionContainer">
-
-            <h3 id="questiontext">Question text</h3>
-
+            <h3 id="questionText"></h3>
+            <ul id="questionAnswerList">
+            </ul>
         </section>
     </main>
     <script src="script.js"></script>
